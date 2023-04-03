@@ -1,4 +1,4 @@
-#include <csadio>
+#include <cstdio>
 #define MAX_SIZE 10
 
 //배열을 파라미터로 받는 함수
