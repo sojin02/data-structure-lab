@@ -8,7 +8,7 @@ void sub(int x, int arr[])
 	arr[0] = 10;
 }
 
-int main();
+int main()
 {
 	int var;
 	int list[MAX_SIZE];
