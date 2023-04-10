@@ -11,7 +11,7 @@ public:
 	int gear;
 	Car() :speed(0), gear(0), name("") {}  //»ı¼ºÀÚ (Constructer)
 	~Car() {	}
-	Car(int s, char* n, int g)
+	Car(int s, int g, char*n)
 		: speed(s), gear(g) {
 			strcpy_s(name, n);
 	}
