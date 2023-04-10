@@ -1,7 +1,5 @@
 #pragma once
-#include<cstdio>
-#include<>  //¹¹Áö?
-
+#include<cstring>
 
 class Birthday {
 

@@ -1,6 +1,7 @@
 #pragma once
 #include<cstdio>
 #include <vector>
+#include<iostream>
 #define MAX_DEGREE 100
 using namespace std;
 
