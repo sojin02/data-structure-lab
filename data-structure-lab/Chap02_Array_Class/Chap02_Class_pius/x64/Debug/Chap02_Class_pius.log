@@ -1,0 +1,4 @@
+﻿  polynomial.cpp
+C:\Users\정소진\Desktop\data-structure-lab\data-structure-lab\Chap02_Array_Class\Chap02_Class_pius\Polynomial.h(12,1): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\정소진\Desktop\data-structure-lab\data-structure-lab\Chap02_Array_Class\Chap02_Class_pius\Polynomial.h(22,12): warning C4477: 'scanf_s' : 서식 문자열 '%f'에 'float *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+  Chap02_Class_pius.vcxproj -> C:\Users\정소진\Desktop\data-structure-lab\data-structure-lab\Chap02_Array_Class\x64\Debug\Chap02_Class_pius.exe
