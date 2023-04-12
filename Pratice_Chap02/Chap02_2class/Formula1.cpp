@@ -12,6 +12,7 @@ int main()
 	yourCar.display();
 
 	SportsCar myCar;
+	myCar.setTurbo(Ture);
 	myCar.speedUp();
 	myCar.display();
 
