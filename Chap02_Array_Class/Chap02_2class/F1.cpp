@@ -66,7 +66,12 @@ int main()
 	vector<Music*> artistResult = myservice.searchByArtist(artist_name);
 	if (artistResult.size() > 0) {
 		cout << "Found " << artistResult.size() << "sing by " << artist_name << " : " endl;
-		for (int i =0; )
+		for (int i = 0; i < artistResult.size(); i++) {
+			cout << artistResult[i]->getTitle() << endl;
+		}
 
+	}
+	else {
+		cout << "Not Found"
 	}
 }
