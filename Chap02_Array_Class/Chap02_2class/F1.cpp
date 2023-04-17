@@ -1,6 +1,8 @@
 #include"sportcar.h"
 #include"Rec.h"
 #include"smartHome.h"
+#include"Pet.h"
+#include"music.h"
 
 int main()
 {
@@ -30,7 +32,41 @@ int main()
 	std::cout << "Is sqre?" <<
 
 	*/
-
+	/*
 	SmartHome myHome("홍길동", 23, 40, ture);
 	myHome.
+	*/
+
+	/*
+	Pet myPet("Lucky", 11, "dog");
+	cout << "My Pet name is" << myPet.getName() << endl;
+	cout << "My Pet age is" << myPet.getAge() << endl;
+
+	Pet myPet("Cookie", 11, "cat");
+	cout << "My Pet name is" << myPuppy.getName() << endl;
+	cout << "My Pet age is" << myPully.getAge() << endl;
+	*/
+
+	MusicStreamService myservice("MyMusic");
+	myservice.addMusic("아니근데진짜", "LUCY", "Album", 2023);
+	myservice.addMusic("동문서답", "LUCY", "Album", 2023);
+	myservice.addMusic("Ditto", "Newjeans", "Album", 2023);
+
+
+	cout << "Enter the music title :";
+	cin >> music_title;
+	Music* result = myservice.searchByTitle(music_title);
+	if (result != NULL) {
+		cout << "Found : " << result->getTitle() << "By" << result->getArtist() << endl;
+	}
+
+	string srtist_name;
+	cout << "Enter the Artist Name : ";
+	cin >> artist_name;
+	vector<Music*> artistResult = myservice.searchByArtist(artist_name);
+	if (artistResult.size() > 0) {
+		cout << "Found " << artistResult.size() << "sing by " << artist_name << " : " endl;
+		for (int i =0; )
+
+	}
 }

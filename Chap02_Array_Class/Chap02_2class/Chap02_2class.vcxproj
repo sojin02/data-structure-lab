@@ -131,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.h" />
+    <ClInclude Include="music.h" />
+    <ClInclude Include="Pet.h" />
     <ClInclude Include="Rec.h" />
     <ClInclude Include="smartHome.h" />
     <ClInclude Include="sportcar.h" />
